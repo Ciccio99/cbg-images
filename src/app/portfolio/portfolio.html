@@ -1,0 +1,13 @@
+<div flex layout='row' layout-wrap ng-controller='portfolioCtrl' class='portfolio-wrapper'>
+	<div flex='50' flex-sm='100' layout='column' ng-repeat='col in photos'>
+		<md-card ng-repeat='imageDir in col.column' class='portfolio-photo-card'>
+			<div class="image-overlay">
+				<img ng-src="{{imageDir}}" class='card-img'>
+				<div class='image-header' layout='column' layout-align='start start'>
+					<h2 layout='row'>IMAGE TITLE</h2>
+					<p layout='row'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>	
+				</div>	
+			</div>
+		</md-card>
+	</div>
+</div>

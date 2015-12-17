@@ -1,0 +1,27 @@
+[	
+		
+		{"column": ["app/assets/images/Architecture/architecture1.jpg",
+					"app/assets/images/Architecture/architecture2.jpg",
+					"app/assets/images/Architecture/architecture3.jpg",
+					"app/assets/images/Architecture/architecture6.jpg",
+					"app/assets/images/Streets/streets1.jpg",
+					"app/assets/images/Streets/streets2.jpg",
+					"app/assets/images/Streets/streets3.jpg",
+					"app/assets/images/Streets/streets6.jpg",
+					"app/assets/images/Architecture/architecture9.jpg",
+					"app/assets/images/Architecture/architecture10.jpg",
+					"app/assets/images/Architecture/architecture11.jpg"
+					]
+		},
+		{"column": ["app/assets/images/Architecture/architecture5.jpg",
+					"app/assets/images/Architecture/architecture4.jpg",
+					"app/assets/images/Architecture/architecture7.jpg",
+					"app/assets/images/Architecture/architecture8.jpg",
+					"app/assets/images/Streets/streets4.jpg",
+					"app/assets/images/Streets/streets5.jpg",
+					"app/assets/images/Architecture/architecture12.jpg",
+					"app/assets/images/Streets/streets7.jpg",
+					"app/assets/images/Streets/streets8.jpg"
+					]
+		}
+]

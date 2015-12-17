@@ -1,0 +1,51 @@
+.image-holder {
+	display: flex;
+	justify-content: center;
+}
+
+.main-bio-panel {
+	box-sizing: border-box;
+	padding: 5rem 1rem 0 1rem;
+}
+
+.bio-content-box {
+	height: 400px;
+}
+
+.bio-content-box p {
+	font: normal 300 1rem 'Yanone+Kaffeesatz', Helvetica, Arial, sans-serif;
+	text-rendering: optimizeLegibility;
+	line-height: 1.6rem;
+}
+
+.social-icons-holder {
+	box-sizing: border-box;
+	padding: 0 1rem;
+
+}
+
+.social-icons {
+	width: 36px;
+	height: 36px;
+	margin: 0 0.75rem;
+}
+
+.tiny-icon-list {
+	width: 10rem;
+	font: normal 300 1rem 'Yanone+Kaffeesatz', Helvetica, Arial, sans-serif;
+
+}
+
+.tiny-icon-list a {
+	color: #000;
+}
+
+.tiny-icon-list li:not(:first-child){
+	margin-top: 4px;
+}
+
+.tiny-social-icons {
+	width: 18px;
+	height: 18px;
+}
+

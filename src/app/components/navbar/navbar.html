@@ -1,0 +1,31 @@
+
+<div ng-controller="NavbarCtrl" layout="vertical">
+	<div>
+      <md-button ng-click="toggleLeft()" class="md-primary" hide-gt-md>
+        Toggle left
+      </md-button>
+	 </div>
+	<md-sidenav layout='column' md-component-id='left' layout-align='start center' class='header-div'  md-is-locked-open="$mdMedia('gt-md')" flex>
+		<a class='header-logo'ui-sref="home">
+		  	<img src="assets/images/g-logo.png">
+		 </a>
+
+	  	<nav class='header-menu-nav' >
+		  	<ul class='nav-menu-list' >
+		  		<li><a ui-sref="home" class='menu-list-button' layout-align='end end'>Home</a></li>
+		  	 	<li><a ui-sref="advertising" class='menu-list-button'>Advertising</a></li>
+		  	 	<li><a ui-sref="architecture" class='menu-list-button'>Architecture</a></li>
+		  	 	<li><a ui-sref="portraiture" class='menu-list-button'>Portraiture</a></li>
+		  	 	<li><a ui-sref="still-life" class='menu-list-button'>Still Life</a></li>
+		  	 	<li><a ui-sref="travel" class='menu-list-button'>Travel</a></li>
+		  	 	<li><a ui-sref="streets" class='menu-list-button'>Streets</a></li>
+
+		  	</ul> 
+	  	</nav>
+
+
+	</md-sidenav>
+
+	
+
+</div>

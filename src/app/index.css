@@ -1,0 +1,81 @@
+@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,200,300,700|Teko:700|Roboto:500,300,700,400);
+
+md-sidenav.md-locked-open {
+  width: 220px;
+  min-width: 220px;
+  max-width: 220px;
+}
+
+.md-sidenav-left, md-sidenav {
+    width: 220px;
+    min-width: 220px;
+    max-width: 220px;
+}
+
+html {
+  font-family: 'Roboto', serif;
+}
+
+body{
+}
+
+[layout=row] {
+  flex-direction: row;
+}
+
+.site-logo {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  z-index: 5;
+  cursor: pointer;
+}
+
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+.thumbnail {
+  height: 200px;
+}
+
+.thumbnail img.pull-right {
+  width: 50px;
+}
+
+md-toolbar.md-default-theme {
+  background-color: black;
+}
+
+.main-section{
+  height: 100%;
+}
+section.jumbotron {
+  margin-bottom: 30px;
+  padding: 1px 30px;
+  background-color: #5aadbb;
+  text-align: center;
+
+  color: white;
+}
+
+section.jumbotron h1 {
+  font-size: 3em;
+}
+
+.techs {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.techs md-card {
+  width: 30%;
+}
+
+.techs md-card img.pull-right {
+  float: right;
+  width: 50px;
+}
